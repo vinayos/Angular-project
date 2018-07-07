@@ -1,0 +1,75 @@
+<footer>
+    <div class="row no-gutters justify-content-center">
+        <div class="col-md-1 offset-md-1"></div>
+        <div class="col-md-7 col-sm-12"> 
+                <ul class="footer-menu">
+                    <li class="items"><a href="index.html#home">Home</a></li>
+                    <li class="items"><a href="index.html#about">About</a></li>
+                    <li class="items"><a href="index.html#wat-we-do">Our Projects</a></li>
+                    <li class="items"><a href="index.html#contact">Contact</a></li>  
+                </ul>
+        </div>
+        <div class="col-md-3 col-sm-12 social-media">
+            <a href="#" ><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <!--<a href="#" ><i class="fa fa-twitter" aria-hidden="true"></i></a>-->
+            <a href="#" ><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+        </div>
+        <div class="col-md-1 offset-md-1"></div>
+    </div>
+    <hr>
+    <div class="row no-gutters copy-right justify-content-center">
+       
+        <p>Sambhrama Eco Housing Pvt Ltd. © 2017</p>    
+    </div>
+</footer>
+
+
+<script type="application/javascript">
+$(document).ready(function() {
+$('.post').addClass("hidden").viewportChecker({
+    classToAdd: 'visible animated fadein-down',
+    offset: 100
+   });
+});
+    
+    $('.gallery a.gal_item').touchTouch();
+    </script> 
+<script>      
+    //For Smooth scrolling effect
+    $('a[href^="#"]').click(function(e) {
+
+        $('html,body').animate({ scrollTop: $(this.hash).offset().top}, 1000);
+
+        return false;
+
+        e.preventDefault();
+
+    });  
+</script>
+ <script>
+    //GOOGLE DRIVE SPREAD SHEET UPDATING SCRIPT
+    function postContactToGoogle() {
+        var email = $('#email').val();
+        var name = $('#name').val();
+        var phone = $('#phone').val();
+        var message = $('#message').val();
+
+            $.ajax({
+                url: "https://docs.google.com/forms/d/e/1FAIpQLSdEvCXRTvP4JYegQazIUFx4GFaoKjxhCccgQUInKozC9lgO2A/formResponse",
+                data: { "entry.556488278": email,
+                "entry.934409486": name, "entry.1243852282":
+                phone, "entry.546035069": message},
+                type: "POST",
+                dataType: "xml",
+                statusCode: {
+                    0: function () {
+                        window.location.replace("ThankYou.html");
+                    },
+                    200: function () {
+                        window.location.replace("ThankYou.html");
+                    }
+                }
+            });
+    }
+</script>
+<script data-cfasync="false" type="text/javascript" src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>

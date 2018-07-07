@@ -1,0 +1,213 @@
+@media screen and (min-width: 1200px){
+    .brand-img{
+        width: 15%!important;
+    }
+}
+
+
+@media screen and (min-width: 768px){
+    .brand-img{
+       width: 60%!important;
+    }
+    
+    .nav-content-items a{
+        font-size: 15px!important;  
+    }
+    
+    .nav-contents {
+    width: 95%!important;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px){
+    .brand-img{
+        width: 100%!important;
+    }
+    
+    .contact-form input[type="tel"]{
+        
+        width: 74%;
+    }
+    
+    .contact-form input[type="email"]{
+        
+        width: 74%;
+    }
+    
+    .subscribe input, .subscribe textarea{
+         width: 80%;
+    }
+    
+     .register_form{
+        width: 100%;
+    }
+    
+    .registration-fields p{
+        
+        -webkit-text-align: justify;
+        -moz-text-align: justify;
+        -ms-text-align: justify;
+        -o-text-align: justify;
+        text-align: justify;
+    }
+    
+    .registration-fields .submit-btn .btn{
+        width: 100%;
+    }
+    
+    .registor-head img{
+    width: 80%;
+    }
+    
+    .btn-animate{
+        width: 70%;
+    }
+    
+    .slide-nav .navbar-collapse{
+        border-top: 1px solid;
+        
+    }
+}
+
+@media screen and (min-width: 256px) and (max-width: 576px){
+    .brand-img{
+        width: 75%!important;
+    }
+    
+     .contact-form input[type="tel"]{
+        float:none;
+        width: 74%;
+    }
+    
+    .contact-form input[type="email"]{
+        float: none;
+        width: 74%;
+    }
+    
+    .subscribe input, .subscribe textarea{
+         width: 80%;
+    }
+    
+    .nav-contents{
+        height: 50vh;
+         overflow-y: auto;
+        -webkit-text-align: center;
+        -moz-text-align: center;
+        -ms-text-align: center;
+        -o-text-align: center;
+        text-align: -webkit-center;
+    }
+    
+    footer{
+        -webkit-text-align: center;
+        -moz-text-align: center;
+        -ms-text-align: center;
+        -o-text-align: center;
+        text-align: -webkit-center;
+    }
+    
+    .social-media a {
+        float: none;
+    }
+    
+    .profilePic{
+        border-right: 0px;
+        border-bottom: 5px solid #eee;
+        padding-bottom: 22px;
+    }
+    
+    .profile-box{
+        left: 19px;
+        height: 109vh;
+        margin-bottom: 153px;
+    }
+    
+    .profileDetail h3{
+        width: 85%;
+    }
+    
+    .profileDetail p{
+        padding-left: 15px;
+    }
+    
+    .profile-bg {
+        height: 126vh;
+    }
+    
+    .profileDetail address{
+        padding: 5px;
+    }
+    
+    .register_form{
+        width: 100%;
+    }
+    
+    .registration-fields p{
+         -webkit-text-align: justify;
+        -moz-text-align: justify;
+        -ms-text-align: justify;
+        -o-text-align: justify;
+        text-align: justify;
+    }
+    
+    .registration-fields .submit-btn .btn{
+        width: 100%;
+    }
+    
+    .registor-head img{
+    width: 80%;
+    }
+    
+    .btn-animate{
+        width: 70%;
+    }
+    
+    .slide-nav .navbar-collapse{
+        border-top: 1px solid;
+    }
+}
+
+
+@media screen and (min-width: 576px) and (max-width: 768px) and (orientation: landscape)  {
+    .brand-img{
+        width: 50%!important;
+    }
+    
+    .register_form{
+        width: 100%;
+    }
+    
+    .registration-fields p{
+         -webkit-text-align: justify;
+        -moz-text-align: justify;
+        -ms-text-align: justify;
+        -o-text-align: justify;
+        text-align: justify;
+    }
+    
+    .registration-fields .submit-btn .btn{
+        width: 100%;
+    }
+    
+    .registor-head img{
+    width: 80%;
+    }
+    
+    .btn-animate{
+        width: 70%;
+    }
+    
+    .nav-contents{
+        height: 50vh;
+         overflow-y: auto;
+        -webkit-text-align: center;
+        -moz-text-align: center;
+        -ms-text-align: center;
+        -o-text-align: center;
+        text-align: center;
+    }
+    
+    .slide-nav .navbar-collapse{
+        border-top: 1px solid;
+    }
+}
